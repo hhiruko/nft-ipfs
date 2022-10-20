@@ -3,7 +3,7 @@ require("dotenv").config({ path: ".env" });
 
 async function main() {
   // URL from where we can extract the metadata for a LW3Punks
-  const metadataURL = "ipfs://YOUR-METADATA-CID/";
+  const metadataURL = "ipfs://QmPo2GJrFwAXUWce4e1h1T6nWXxT9wh2nGr2VRouKPUrLB/";
   /*
   A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
   so lw3PunksContract here is a factory for instances of our LW3Punks contract.
